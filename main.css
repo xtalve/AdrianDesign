@@ -84,6 +84,13 @@ h3 {
  color:#001833;
  font-weight:800;
 }
+h4 {
+ text-transform:capitalize;
+ font-size:1.275em;
+ padding:0 0 1% 0;
+ color:#001833;
+ font-weight:800;
+}
 .textc{
   text-align: center;
 }
@@ -102,9 +109,9 @@ header {
  rgba(244, 66, 80, 0.90)
  ),
  /* bottom, image */
- url(img/laptop.jpg);
+ url(img/bb8.png);
  background-size: cover;
- background-position: center top;
+ background-position: center;
  width:100%;
 }
 .intro {
@@ -191,11 +198,15 @@ header {
  font-weight:600;
  text-transform:uppercase;
  margin-top:4%;
+ -webkit-transition: -webkit-transform .8s ease-in-out;
+				 transition:         transform .8s ease-in-out;
 }
 .button:hover {
  color:#F44277;
  border: 3px solid #000;
  background-color:#fff;
+ -webkit-transform: rotateX(360deg);
+					 transform:  rotateX(360deg);
 }
 .image-area {
  width:480px;
@@ -208,6 +219,10 @@ header {
 .right {
  float:right;
 }
+.inherit{
+	float: inherit;
+}
+
 .contact {
  width:100%;
  background-color:#011833;
@@ -228,8 +243,12 @@ header {
  letter-spacing:0.04em;
 }
 .contact-content a {
- color:#E0CCC8;
+ color:#F44277;
  text-decoration:none;
+}
+.contact-content a:hover {
+ color:#F44256;
+ text-decoration: underline;
 }
 .image-divider {
  padding:15% 0;
