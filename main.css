@@ -1,7 +1,10 @@
 /* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
 */
+/*Start OF Fonts*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+/*End OF Fonts*/
+/*Start OF HTML CSS reset code*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -47,10 +50,35 @@ table {
 	border-spacing: 0;
 }
 /*--END OF RESET--*/
+/*GLOBAL START*/
+
 body {
  background-color:#f9f9f9;
 }
+.jigg:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
 
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
 a {
  -o-transition:.5s;
  -ms-transition:.5s;
@@ -91,8 +119,118 @@ h4 {
  color:#001833;
  font-weight:800;
 }
+/*GLOBAL END*/
+
+/*Start OF ON LOAD TEXT*/
+
+.animate-reveal {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  opacity: 0;
+  -webkit-animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+     -moz-animation: reveal 1s ease-in 1 normal forwards;
+       -o-animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+          animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+}
+
+.animate-first {
+  -webkit-animation-delay: 0;
+     -moz-animation-delay: 0;
+       -o-animation-delay: 0;
+          animation-delay: 0;
+}
+
+.animate-second {
+  -webkit-animation-delay: 500ms;
+     -moz-animation-delay: 500ms;
+       -o-animation-delay: 500ms;
+          animation-delay: 500ms;
+}
+
+.animate-third {
+  -webkit-animation-delay: 1s;
+     -moz-animation-delay: 1s;
+       -o-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+@-webkit-keyframes reveal {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+       -moz-transform: translateY(100%);
+         -o-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+       -moz-transform: translateY(0);
+         -o-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@-moz-keyframes reveal {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+       -moz-transform: translateY(100%);
+         -o-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+       -moz-transform: translateY(0);
+         -o-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@-o-keyframes reveal {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+       -moz-transform: translateY(100%);
+         -o-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+       -moz-transform: translateY(0);
+         -o-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+       -moz-transform: translateY(100%);
+         -o-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+       -moz-transform: translateY(0);
+         -o-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+/*END OF ON LOAD TEXT*/
+
+/*GLOBAL START2*/
+
 .textc{
   text-align: center;
+}
+.textb p{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
 }
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.1); }
@@ -113,6 +251,7 @@ header {
  background-size: cover;
  background-position: center;
  width:100%;
+
 }
 .intro {
  max-width: 960px;
@@ -252,11 +391,10 @@ header {
 }
 .image-divider {
  padding:15% 0;
- background:
+ background: url(img/man.jpg);
  /* bottom, image */
- url(img/.jpg);
  background-size: cover;
- background-position: center top;
+ background-position: center;
 }
 footer {
   background:
@@ -306,6 +444,7 @@ color: black;
 .social li a:hover {
  color:#fff;
 }
+/*GLOBAL END2*/
 
 @media only screen and (max-width:1000px) {
  .wrapper {
@@ -328,6 +467,11 @@ color: black;
  }
  .footer-content {
  padding:3.5%;
+ }
+ img{
+	 padding-left: 25%;
+	 width: 50%;
+	 height: 50%;
  }
 }
 @media only screen and (max-width:800px) {
@@ -360,5 +504,47 @@ color: black;
  .contact-content {
  font-size:12px;
  line-height:1.5;
+ }
+ img{
+	 padding-left: 25%;
+	 width: 50%;
+	 height: 50%;
+ }
+}
+@media only screen and (max-width:768px) {
+ .intro h1 {
+ font-size:3em;
+ line-height:1.2;
+ }
+ .intro h2 {
+ font-size:1.5em;
+ padding-top:3%;
+ }
+ .about p {
+ font-size:1em;
+ line-height:2;
+ }
+ footer {
+ height:130px;
+ line-height:1.3em;
+ }
+ .footer-content {
+ padding: 4%;
+ font-size:14px;
+ }
+ .social {
+ float: left;
+ }
+ .social li a {
+ font-size: 1.3em;
+ }
+ .contact-content {
+ font-size:12px;
+ line-height:1.5;
+ }
+ img{
+	 padding-left: 25%;
+	 width: 50%;
+	 height: 50%;
  }
 }
