@@ -399,8 +399,8 @@ background: -moz-linear-gradient(center top, #0096FF, #005DFF);
  text-decoration: underline;
 }
 .image-divider {
- padding:15% 0;
- background: url(img/man.jpg);
+ padding:25% 0;
+ background: url(img/webonphone.png);
  /* bottom, image */
  background-size: cover;
  background-position: center;
