@@ -256,7 +256,7 @@ header {
  rgba(244, 66, 80, 0.90)
  ),
  /* bottom, image */
- url(img/bb8.png);
+ url(../img/bb8.png);
  background-size: cover;
  background-position: center;
  width:100%;
@@ -400,7 +400,7 @@ background: -moz-linear-gradient(center top, #0096FF, #005DFF);
 }
 .image-divider {
  padding:25% 0;
- background: url(img/webonphone.png);
+ background: url(../img/webonphone.png);
  /* bottom, image */
  background-size: cover;
  background-position: center;
