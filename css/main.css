@@ -97,7 +97,7 @@ strong {
 }
 
 img {
- width:100%;
+ width: 100%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -252,11 +252,11 @@ h4 {
 header {
  background:
  linear-gradient(
- rgba(244, 66, 119, 1),
- rgba(244, 66, 80, 0.90)
+ rgba(244, 66, 119, 0),
+ rgba(244, 66, 80, 1)
  ),
  /* bottom, image */
- url(../img/bb8.png);
+ url(../img/landscape.jpg);
  background-size: cover;
  background-position: center;
  width:100%;
@@ -412,7 +412,7 @@ background: -moz-linear-gradient(center top, #0096FF, #005DFF);
 }
 .image-divider {
  padding:25% 0;
- background: url(../img/webonphone.png);
+ background: url(../img/landscape.jpg);
  /* bottom, image */
  background-size: cover;
  background-position: center;
