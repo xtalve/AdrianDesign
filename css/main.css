@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/
+/*http://meyerweb.com/eric/tools/css/reset/
 */
 /*Start OF Fonts*/
 
@@ -31,9 +31,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-.spacex1{
-	padding: 150px;
-}
 body {
 	line-height: 1;
 }
@@ -63,6 +60,20 @@ body {
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
   perspective: 1000px;
+}
+.arow-size{
+	width: 2%;
+	height: 2%;
+	padding-left: 50%;
+	padding-right: 50%;
+	padding-top: 175px;
+}
+.download-size{
+	width: 8%;
+	height: 11%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
 }
 
 @keyframes shake {
@@ -470,7 +481,6 @@ color: black;
  color:#fff;
 }
 /*GLOBAL END2*/
-
 @media only screen and (max-width:1000px) {
 	header{
 		width: 100%;
@@ -502,6 +512,9 @@ color: black;
 	 padding-left: 25%;
 	 width: 50%;
 	 height: 50%;
+ }
+ .arow-size{
+	 display: none;
  }
 }
 @media only screen and (max-width:800px) {
@@ -540,6 +553,9 @@ color: black;
 	 width: 50%;
 	 height: 50%;
  }
+ .arow-size{
+	 display: none;
+ }
 }
 @media only screen and (max-width:768px) {
  .intro h1 {
@@ -576,5 +592,8 @@ color: black;
 	 padding-left: 25%;
 	 width: 50%;
 	 height: 50%;
+ }
+ .arow-size{
+	 display: none;
  }
 }
