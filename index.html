@@ -5,14 +5,16 @@
     <title>Adrian Design</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/spinner.css">
-    <link rel="shortcut icon" href="img/png/paint-brush.png">
+    <link rel="shortcut icon" href="img/paint-brush.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
  </head>
  <body onload="hidespinner()">
 
      <div id="loading-spinner">
      </div>
-
+     <audio src="am.mp3" id="ammp3">
+     <p>Your browser does not support the audio element.</p>
+     </audio>
 <header class="bor jigg">
   <div class="intro grow">
     <h1 class="animate-reveal animate-first">Adrian Abdulovski</h1>
@@ -20,55 +22,26 @@
     <img src="img/angle-arrow-down.png" alt="angle-arrow-down" class="animate-reveal animate-second arow-size">
   </div>
 </header>
-
-<div class="wrapper">
+<div class="hole-wrapper">
+  <div class="wrapper">
   <section class="about">
-    <div class="abount-content">
+    <div class="">
       <h3 class="textc animate-reveal animate-third">Hi, I'm Adrian.</h3>
         <p class="textc animate-reveal animate-third">I am a front end web developer</p>
         <p class="textc animate-reveal animate-third">Front-end web development, also known as client-side development is the practice of producing HTML, CSS and JavaScript for a website or Web Application so that a user can see and interact with them directly.</p>
     </div>
   </section>
 </div>
-
-<h3 class="textc animate-reveal animate-third">Work.</h3>
-  <section class="work">
-    <div class="image-area left">
-      <img src="img/pen.png" alt="pen"/>
-        </div>
-          <div class="text-box">
-            <div class="text-box-content">
-            <h3 class="animate-reveal animate-third">Website One</h3>
-          <p class="animate-reveal animate-third">Nothing Yet, But if you want a website.</p>
-          <a href="#contact" class="button bor1 animate-reveal animate-third">Email Me</a>
-      </div>
+<div class="wrapper">
+  <section class="about">
+    <div class="">
+      <h3 class="textc animate-reveal animate-third">Fav Sites.</h3>
+        <p class="textc animate-reveal animate-third">Here are some of my fav sites of 2017</p>
+        <p class="textc animate-reveal animate-third">Front-end web development, also known as client-side development is the practice of producing HTML, CSS and JavaScript for a website or Web Application so that a user can see and interact with them directly.</p>
     </div>
   </section>
-
-<div class="image-area right">
-  <img src="img/pen.png" alt="pens"/>
-    </div>
-      <div class="text-box">
-        <div class="text-box-content">
-          <h3>Website Two &amp; flat</h3>
-        <p>Nothing Yet, But if you want a website.</p>
-        <a href="#contact" class="button bor1 animate-reveal animate-third">Email Me</a>
-    </div>
-  </div>
-</section>
-
-<div class="image-area left">
-  <img src="img/pen.png" alt="pens"/>
-    </div>
-      <div class="text-box">
-        <div class="text-box-content">
-          <h3>Website Three &amp; (FREE DOWNLOAD)</h3>
-        <p>Nothing Yet, But if you want a website.</p>
-        <a href="box.png.zip"><img src="img/download.png" alt="download icon" class="download-size animate-reveal animate-third"></a>
-    </div>
-  </div>
-</section>
-
+</div>
+</div>
 
 <section id="contact"class="contact">
   <div class="contact-content animate-reveal animate-third">
@@ -91,5 +64,15 @@
   </div>
 </footer>
 <script type="text/javascript" src="js/spinner.js"></script>
+<script type="text/javascript">
+window.addEventListener("keydown", checkKeyPressed, false);
+
+function checkKeyPressed(e) {
+    if (e.keyCode == "9") {
+        //Play Music
+        document.getElementById('ammp3').play()
+    }
+}
+</script>
   </body>
 </html>
