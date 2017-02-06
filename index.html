@@ -4,16 +4,20 @@
     <meta charset="utf-8">
     <title>Adrian Design</title>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/spinner.css">
     <link rel="shortcut icon" href="img/paint-brush.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
  </head>
+ <script type="text/javascript">
+ function hidespinner(){
+     document.getElementById('loading-spinner').style.display='none';
+     }
+ </script>
  <body onload="hidespinner()">
 
      <div id="loading-spinner">
      </div>
      <audio src="am.mp3" id="ammp3">
-     <p>Your browser does not support the audio element.</p>
+     <p>Yrbrdsntstteaoet.</p>
      </audio>
 <header class="bor jigg">
   <div class="intro grow">
@@ -32,17 +36,7 @@
     </div>
   </section>
 </div>
-<div class="wrapper">
-  <section class="about">
-    <div class="">
-      <h3 class="textc animate-reveal animate-third">Fav Sites.</h3>
-        <p class="textc animate-reveal animate-third">Here are some of my fav sites of 2017</p>
-        <p class="textc animate-reveal animate-third">Front-end web development, also known as client-side development is the practice of producing HTML, CSS and JavaScript for a website or Web Application so that a user can see and interact with them directly.</p>
-    </div>
-  </section>
 </div>
-</div>
-
 <section id="contact"class="contact">
   <div class="contact-content animate-reveal animate-third">
     <h4>Have a project in mind? Email me:<a class="email" href="mailto:xtalve@gmail.com">xtalve@gmail.com</a></h4>
@@ -63,14 +57,13 @@
     </ul>
   </div>
 </footer>
-<script type="text/javascript" src="js/spinner.js"></script>
 <script type="text/javascript">
 window.addEventListener("keydown", checkKeyPressed, false);
 
 function checkKeyPressed(e) {
     if (e.keyCode == "9") {
         //Play Music
-        document.getElementById('ammp3').play()
+        document.getElementById('ammp3').play();
     }
 }
 </script>
