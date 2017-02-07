@@ -7,11 +7,6 @@
     <link rel="shortcut icon" href="img/paint-brush.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
  </head>
- <script type="text/javascript">
- function hidespinner(){
-     document.getElementById('loading-spinner').style.display='none';
-     }
- </script>
  <body onload="hidespinner()">
 
      <div id="loading-spinner">
@@ -21,8 +16,8 @@
      </audio>
 <header class="bor jigg">
   <div class="intro grow">
-    <h1 class="animate-reveal animate-first">Adrian Abdulovski</h1>
-    <h2 class="animate-reveal animate-second">Web Designer</h2>
+    <h1 id="eerrtt" class="animate-reveal animate-first">Adrian Abdulovski</h1>
+    <!--<h2 id="eerrtt" class="animate-reveal animate-second">Web Designer</h2>-->
     <img src="img/angle-arrow-down.png" alt="angle-arrow-down" class="animate-reveal animate-second arow-size">
   </div>
 </header>
@@ -45,27 +40,28 @@
 
 <div class="image-divider">
 </div>
-
 <footer>
   <div class="footer-content animate-reveal animate-third">
     <p class="credit">&copy; Copyright 2017 Adrian Abdulovski.<br>Designed and Developed by Adrian Abdulovski.</p>
       <ul class="social">
-        <li><a href="#" target="_blank">Pinterest.</a></li>
+        <!--<li><a href="#" target="_blank">Pinterest.</a></li>-->
           <!--<li><a href="#" target="_blank">pinterest.</a></li>-->
         <li><a href="https://www.youtube.com/channel/UCo5Wz7FwLjwBwqb82bwNzXw" target="_blank">Youtube.</a></li>
       <!--<li><a href="#" target="_blank">linkedin.</a></li>-->
     </ul>
   </div>
 </footer>
-<script type="text/javascript">
-window.addEventListener("keydown", checkKeyPressed, false);
-
-function checkKeyPressed(e) {
-    if (e.keyCode == "9") {
-        //Play Music
-        document.getElementById('ammp3').play();
-    }
-}
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script src="js/typed.js"></script>
+<script>
+  $(function(){
+      $("#eerrtt").typed({
+        strings: ["He's is a Web Designer.", "And He's Name is...", "Adrian Abdulovski."],
+        typeSpeed: 80
+      });
+  });
 </script>
+<!--<p>Keypresses: <span>0</span></p>-->
   </body>
 </html>
