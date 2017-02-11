@@ -28,16 +28,16 @@ $(function(){
   //$('p:first').attr('class', 'not-lead');
 
   // IMAGE SWAP
-  //$('img').attr('src', 'img2.jpg');
-  // $('img').delay(400).fadeOut(500, function(){
-  //   $(this).attr('src', 'img2.jpg').fadeIn(500);
-  // });
+  $('img').attr('src', 'img2.jpg');
+   $('img').delay(400).fadeOut(500, function(){
+     $(this).attr('src', 'img2.jpg').fadeIn(500);
+   });
 
   // CLASS METHODS
   //$('p').toggleClass('blue').removeClass('lead');
 
   // CONTENT METHODS
-  //$('p:first').html('<a href="google.com">link</a>');
+  // $('p:first').html('<a href="google.com">link</a>');
   // $('input').val('yo dude!');
 
 });
