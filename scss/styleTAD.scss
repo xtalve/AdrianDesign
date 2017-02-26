@@ -1,0 +1,156 @@
+$red : #eb8484;
+$yellow : #ebea84;
+$blue : #84e8eb;
+$green : #84eb8e;
+$gray : #444;
+html {
+  font-family: 'Roboto Condensed';
+  color: #fff;
+  background: #fafafa;
+  background: $red;
+}
+body {
+  background: $yellow;
+  padding: 0em 0em;
+  margin:0px;
+}
+.header {
+  z-index: 1;
+  position: relative;
+}
+
+.header .skew:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: visible;
+  width: 100%;
+  height: 250px;
+  background: $red;
+  z-index: -1;
+  -webkit-transform: skewY(-3deg);
+  -moz-transform: skewY(-3deg);
+  -ms-transform: skewY(-3deg);
+  -o-transform: skewY(-3deg);
+  transform: skewY(-3deg);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: initial;
+}
+.header{
+  .skew2:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: visible;
+    width: 100%;
+    height: 50px;
+    background: $red;
+    z-index: -1;
+    -webkit-transform: skewY(2deg);
+    -moz-transform: skewY(2deg);
+    -ms-transform: skewY(2deg);
+    -o-transform: skewY(2deg);
+    transform: skewY(-2deg);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: initial;
+  }
+  .logo2 {
+    margin-bottom: 10px;
+    text-align: center;
+    background: $red;
+    font-size: 24px;
+  }
+
+  .logo2 a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.header .skew .header-inner {
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  margin: 0;
+}
+
+.logo a {
+  color: #fff;
+  text-decoration: none;
+}
+section{
+  background: $yellow;
+  padding: 50px;
+  p{
+    font-size: 20px;
+    text-align: center;
+    color: #333;
+  }
+  h1{
+    font-size: 30px;
+    text-align: center;
+    color: #333;
+  }
+  button{
+    background: $green;
+    border: none;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    width:100%;
+}
+}
+.red{
+  background: $red;
+}
+.yellow{
+  background: $yellow;
+}
+.blue{
+  background: $blue;
+}
+.green{
+  background: $green;
+}
+.blick{
+    opacity: 1;
+    -webkit-animation: blink 1s infinite;
+    -moz-animation: blink 1s infinite;
+    animation: blink 1s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+.error{
+  padding: 200px;
+  background: $green;
+  h1{
+    text-align: center;
+    color: $gray;
+  }
+  button{
+    background: $blue;
+    border: none;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    width:100%;
+  }
+}
