@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25568",
 "files": {
+	"\/404error.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/404error.html",
+		"oF": 0
+		},
 	"\/css\/style.css": {
 		"aP": 1,
 		"bl": 0,
