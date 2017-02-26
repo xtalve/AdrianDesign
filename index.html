@@ -2,66 +2,51 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Adrian Design</title>
-    <link rel="stylesheet" href="css/main-min.css">
-    <link rel="shortcut icon" href="img/paint-brush.png">
+    <title>The Awkward Dev</title>
+    <link rel="stylesheet" href="css/styleTAD.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
- </head>
- <body>
-     <audio src="am.mp3" id="ammp3">
-     <p>Yrbrdsntstteaoet.</p>
-     </audio>
-<header class="bor jigg">
-  <div class="intro grow">
-    <h1 id="eerrtt" class="animate-reveal animate-first">Adrian Abdulovski</h1>
-    <!--<h2 id="eerrtt" class="animate-reveal animate-second">Web Designer</h2>-->
-    <img src="img/angle-arrow-down.png" alt="angle-arrow-down" class="animate-reveal animate-second arow-size">
-  </div>
-</header>
-<div class="hole-wrapper">
-  <div class="wrapper">
-  <section class="about">
-    <div class="">
-      <h3 class="textc animate-reveal animate-third">Hi, I'm Adrian.</h3>
-        <p class="textc animate-reveal animate-third">I am a front end web developer</p>
-        <p class="textc animate-reveal animate-third">Front-end web development, also known as client-side development is the practice of producing HTML, CSS and JavaScript for a website or Web Application so that a user can see and interact with them directly.</p>
-    </div>
-  </section>
-</div>
-</div>
-<section id="contact"class="contact">
-  <div class="contact-content animate-reveal animate-third">
-    <h4>Day Of Code: <a class="email" href="day-of-code/dayofcode.html">Learn With The Awkward Dev</a></h4>
-    <h4>Profile: <a class="email" href="pro/index.html">Adrian Abdulovski</a></h4>
-    <h4>Just Have A Question?: <a class="email" href="contact-me/contact-me.html">Contact Me</a></h4>
-    <h4>Have A Project In Mind? Email Me: <a class="email" href="mailto:xtalve@gmail.com">xtalve@gmail.com</a></h4>
-  </div>
-</section>
-
-<div class="image-divider">
-</div>
-<footer>
-  <div class="footer-content animate-reveal animate-third">
-    <p class="credit">&copy; Copyright 2017 Adrian Abdulovski.<br>Designed and Developed by Adrian Abdulovski.</p>
-      <ul class="social">
-        <!--<li><a href="#" target="_blank">Pinterest.</a></li>-->
-          <!--<li><a href="#" target="_blank">pinterest.</a></li>-->
-        <li><a href="https://www.youtube.com/channel/UCo5Wz7FwLjwBwqb82bwNzXw" target="_blank">Youtube.</a></li>
-      <!--<li><a href="#" target="_blank">linkedin.</a></li>-->
-    </ul>
-  </div>
-</footer>
-<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
-<script src="js/typed.js"></script>
-<script>
-  $(function(){
-      $("#eerrtt").typed({
-        strings: ["A Web Designer.", "And A Web Developer...", "The Awkward Dev."],
-        typeSpeed: 100
+  </head>
+  <body>
+    <script>
+      $('.logo').textillate({
+        in: { effrct: 'rollIn', delay:10},
       });
-  });
-</script>
-<!--<p>Keypresses: <span>0</span></p>-->
+    </script>
+  <header class="header" id="header">
+    <div class="skew">
+        <div class="header-inner">
+          <h1 class="logo">
+            <a href="https://www.youtube.com/channel/UCo5Wz7FwLjwBwqb82bwNzXw" target="_blank">The Awkward Dev</a></h1>
+        </div>
+    </div>
+  </header>
+  <section>
+    <h1 class="h1">Help Me Grow</h1>
+    <p>Front-end web development, also known as client-side development is the practice of producing HTML, CSS and JavaScript for a website or Web Application so that a user can see and interact with them directly. So if you want website let's get in touch...</p>
+    <button onclick="location.href='pro.html'" class="blue">Find Out More</button>
+  </section>
+  <section>
+    <h1>Youtube</h1>
+    <p>On my spare time I like to teach people how to make websites</p>
+    <button onclick="location.href='https://www.youtube.com/channel/UCo5Wz7FwLjwBwqb82bwNzXw'" class="green">Find Out More</button>
+  </section>
+  <section>
+    <h1>Profile</h1>
+    <p>Hello my name is Adrian and i am web developer/designer</p>
+    <button onclick="location.href='pro.html'" class="red">Take A Look</button>
+  </section>
+  <header class="header" id="header">
+    <div class="skew2">
+        <div class="header-inner">
+          <h1 class="logo2">
+            <a href="https://www.youtube.com/channel/UCo5Wz7FwLjwBwqb82bwNzXw" target="_blank">&copy Adrian Design</a></h1>
+        </div>
+    </div>
+  </header>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/jquery.lettering.js"></script>
+  <script src="js/jquery.textillate.js"></script>
   </body>
 </html>

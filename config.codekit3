@@ -4,243 +4,40 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "12C36108-5049-4952-96A9-A001D30A76F7"
+		"uuidString": "7E5196F6-3F98-4803-8178-8017173AB044"
 		}
 	],
-"creatorBuild": "25504",
+"creatorBuild": "25568",
 "files": {
-	"\/am.mp3": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/am.mp3",
-		"oF": 0
-		},
-	"\/contact-me\/bg.jpg": {
-		"ft": 16384,
-		"iS": 830940,
-		"oA": 0,
-		"oAP": "\/contact-me\/bg.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/contact-me\/contact-me.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/contact-me\/contact-me.html",
-		"oF": 0
-		},
-	"\/contact-me\/paint-brush.png": {
-		"ft": 32768,
-		"iS": 1290,
-		"oA": 0,
-		"oAP": "\/contact-me\/paint-brush.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/contact-me\/style.css": {
+	"\/css\/animate.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/contact-me\/style-min.css",
+		"oAP": "\/css\/animate-min.css",
 		"oF": 0,
 		"oS": 0
 		},
-	"\/contact-me\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/contact-me\/style.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/css\/main-min.css": {
+	"\/css\/style.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/main-min-min.css",
+		"oAP": "\/css\/style-min.css",
 		"oF": 0,
 		"oS": 0
 		},
-	"\/css\/main.css": {
+	"\/css\/styleTAD.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/main-min.css",
-		"oF": 1,
-		"oS": 0
-		},
-	"\/day-of-code\/dayofcode.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/day-of-code\/dayofcode.html",
-		"oF": 0
-		},
-	"\/day-of-code\/jquery-2.2.2.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/day-of-code\/jquery-2.2.2.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/day-of-code\/jquery.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/day-of-code\/jquery-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/day-of-code\/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/day-of-code\/style-min.css",
+		"oAP": "\/css\/styleTAD-min.css",
 		"oF": 0,
 		"oS": 0
-		},
-	"\/img\/angle-arrow-down.png": {
-		"ft": 32768,
-		"iS": 329,
-		"oA": 0,
-		"oAP": "\/img\/angle-arrow-down.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/img\/bokeh.jpg": {
-		"ft": 16384,
-		"iS": 106267,
-		"oA": 0,
-		"oAP": "\/img\/bokeh.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/img\/box.png": {
-		"ft": 32768,
-		"iS": 972,
-		"oA": 0,
-		"oAP": "\/img\/box.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/img\/checked.png": {
-		"ft": 32768,
-		"iS": 603,
-		"oA": 0,
-		"oAP": "\/img\/checked.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/img\/download.png": {
-		"ft": 32768,
-		"iS": 414,
-		"oA": 0,
-		"oAP": "\/img\/download.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/img\/earth-globe.png": {
-		"ft": 32768,
-		"iS": 1470,
-		"oA": 0,
-		"oAP": "\/img\/earth-globe.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/img\/imac.png": {
-		"ft": 32768,
-		"iS": 511,
-		"oA": 0,
-		"oAP": "\/img\/imac.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/img\/landscape.jpg": {
-		"ft": 16384,
-		"iS": 242555,
-		"oA": 0,
-		"oAP": "\/img\/landscape.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/img\/man.jpg": {
-		"ft": 16384,
-		"iS": 176603,
-		"oA": 0,
-		"oAP": "\/img\/man.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/img\/menu.png": {
-		"ft": 32768,
-		"iS": 1943,
-		"oA": 0,
-		"oAP": "\/img\/menu.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/img\/mortarboard.png": {
-		"ft": 32768,
-		"iS": 826,
-		"oA": 0,
-		"oAP": "\/img\/mortarboard.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/img\/paint-brush.png": {
-		"ft": 32768,
-		"iS": 1290,
-		"oA": 0,
-		"oAP": "\/img\/paint-brush.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/img\/pantone.png": {
-		"ft": 32768,
-		"iS": 1456,
-		"oA": 0,
-		"oAP": "\/img\/pantone.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/img\/pen.png": {
-		"ft": 32768,
-		"iS": 33249,
-		"oA": 0,
-		"oAP": "\/img\/pen.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/img\/rick.jpg": {
-		"ft": 16384,
-		"iS": 75497,
-		"oA": 0,
-		"oAP": "\/img\/rick.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/img\/rocket.png": {
-		"ft": 32768,
-		"iS": 1421,
-		"oA": 0,
-		"oAP": "\/img\/rocket.png",
-		"oF": 0,
-		"opt": 0
 		},
 	"\/index.html": {
 		"ft": 8192,
@@ -248,235 +45,64 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
-	"\/js\/jquery-3.1.1.min.js": {
+	"\/js\/jquery.fittext.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/jquery-3.1.1.min-min.js",
+		"oAP": "\/js\/jquery.fittext-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/js\/main.js": {
+	"\/js\/jquery.lettering.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/main-min.js",
+		"oAP": "\/js\/jquery.lettering-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/js\/typed.js": {
+	"\/js\/jquery.textillate.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/typed-min.js",
+		"oAP": "\/js\/jquery.textillate-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/pro\/assets\/css\/all-min.css": {
-		"aP": 1,
+	"\/pro.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/pro.html",
+		"oF": 0
+		},
+	"\/scss\/style.scss": {
+		"aP": 0,
 		"bl": 0,
-		"ft": 16,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/pro\/assets\/css\/all-min-min.css",
-		"oF": 0,
-		"oS": 0
+		"oAP": "\/css\/style.css",
+		"oF": 2,
+		"oS": 3,
+		"uL": 1
 		},
-	"\/pro\/assets\/css\/all.css": {
-		"aP": 1,
+	"\/scss\/styleTAD.scss": {
+		"aP": 0,
 		"bl": 0,
-		"ft": 16,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/pro\/assets\/css\/all-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/pro\/assets\/img\/back-btn.png": {
-		"ft": 32768,
-		"iS": 2849,
-		"oA": 0,
-		"oAP": "\/pro\/assets\/img\/back-btn.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/pro\/assets\/img\/bob.png": {
-		"ft": 32768,
-		"iS": 78024,
-		"oA": 0,
-		"oAP": "\/pro\/assets\/img\/bob.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/pro\/assets\/img\/hero-bg.jpg": {
-		"ft": 16384,
-		"iS": 253965,
-		"oA": 0,
-		"oAP": "\/pro\/assets\/img\/hero-bg.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/pro\/assets\/img\/logo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/pro\/assets\/img\/logo.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/pro\/assets\/img\/nccd.jpg": {
-		"ft": 16384,
-		"iS": 177505,
-		"oA": 0,
-		"oAP": "\/pro\/assets\/img\/nccd.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/pro\/assets\/img\/space1.jpg": {
-		"ft": 16384,
-		"iS": 157396,
-		"oA": 0,
-		"oAP": "\/pro\/assets\/img\/space1.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/pro\/assets\/img\/space2.jpg": {
-		"ft": 16384,
-		"iS": 145900,
-		"oA": 0,
-		"oAP": "\/pro\/assets\/img\/space2.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/pro\/assets\/img\/space3.jpg": {
-		"ft": 16384,
-		"iS": 197184,
-		"oA": 0,
-		"oAP": "\/pro\/assets\/img\/space3.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/pro\/assets\/img\/the_design.jpg": {
-		"ft": 16384,
-		"iS": 715571,
-		"oA": 0,
-		"oAP": "\/pro\/assets\/img\/the_design.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/pro\/assets\/js\/functions.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/pro\/assets\/js\/functions-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/pro\/css\/component.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/pro\/css\/component-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/pro\/css\/default.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/pro\/css\/default-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/pro\/fonts\/codropsicons\/codropsicons.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/pro\/fonts\/codropsicons\/codropsicons.eot",
-		"oF": 0
-		},
-	"\/pro\/fonts\/codropsicons\/codropsicons.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/pro\/fonts\/codropsicons\/codropsicons.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/pro\/fonts\/codropsicons\/codropsicons.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/pro\/fonts\/codropsicons\/codropsicons.ttf",
-		"oF": 0
-		},
-	"\/pro\/fonts\/codropsicons\/codropsicons.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/pro\/fonts\/codropsicons\/codropsicons.woff",
-		"oF": 0
-		},
-	"\/pro\/fonts\/codropsicons\/license.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/pro\/fonts\/codropsicons\/license.txt",
-		"oF": 0
-		},
-	"\/pro\/icon.ico": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/pro\/icon.ico",
-		"oF": 0
-		},
-	"\/pro\/images\/1.png": {
-		"ft": 32768,
-		"iS": 9721,
-		"oA": 0,
-		"oAP": "\/pro\/images\/1.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/pro\/images\/2.png": {
-		"ft": 32768,
-		"iS": 8625,
-		"oA": 0,
-		"oAP": "\/pro\/images\/2.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/pro\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/pro\/index.html",
-		"oF": 0
-		},
-	"\/pro\/js\/modernizr.custom.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/pro\/js\/modernizr.custom-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/pro\/js\/toucheffects.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/pro\/js\/toucheffects-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
+		"oAP": "\/css\/styleTAD.css",
+		"oF": 2,
+		"oS": 3,
+		"uL": 1
 		}
 	},
 "hooks": [
@@ -484,10 +110,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 508483492,
-	"displayValue": "AdrianBlog",
+	"creationDate": 509776397,
+	"displayValue": "site",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_purple"
+	"iconImageName": "meme-ive"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1265,7 +891,7 @@
 			},
 		"no-extra-parens": {
 			"active": 1,
-			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false}"
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none'}"
 			},
 		"no-extra-semi": {
 			"active": 1,
@@ -1356,6 +982,10 @@
 			"optionString": "{'grouping': false, 'allowCall': false }"
 			},
 		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-assign": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -1581,11 +1211,11 @@
 			},
 		"no-unused-vars": {
 			"active": 1,
-			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none'}"
+			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none', 'ignoreRestSiblings': false}"
 			},
 		"no-use-before-define": {
 			"active": 0,
-			"optionString": "{'functions': true, 'classes': true}"
+			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
 			},
 		"no-useless-call": {
 			"active": 0,
@@ -1687,6 +1317,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
+			},
 		"prefer-rest-params": {
 			"active": 0,
 			"optionString": ""
@@ -1780,6 +1414,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
