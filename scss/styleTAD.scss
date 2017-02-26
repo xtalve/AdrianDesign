@@ -2,19 +2,18 @@ $red : #eb8484;
 $yellow : #ebea84;
 $blue : #84e8eb;
 $green : #84eb8e;
+$gray : #444;
 html {
   font-family: 'Roboto Condensed';
   color: #fff;
   background: #fafafa;
   background: $red;
 }
-
 body {
   background: $yellow;
   padding: 0em 0em;
   margin:0px;
 }
-
 .header {
   z-index: 1;
   position: relative;
@@ -117,4 +116,25 @@ section{
 }
 .green{
   background: $green;
+}
+.blick{
+    opacity: 1;
+    -webkit-animation: blink 1s infinite;
+    -moz-animation: blink 1s infinite;
+    animation: blink 1s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
