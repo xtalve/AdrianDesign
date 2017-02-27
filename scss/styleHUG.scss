@@ -102,7 +102,8 @@ section{
     justify-content: center;
     padding: 10px;
     border-radius: 10px;
-    width:100%;
+    width: 100%;
+    margin-bottom: 10px;
 }
 }
 .red{
@@ -116,6 +117,9 @@ section{
 }
 .green{
   background: $green;
+}
+.gray{
+  background: $gray;
 }
 .blick{
     opacity: 1;
